@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 19, 2017, 10:02:45 AM
+    Author     : Matthew
+*/
+#banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    max-width: 100%; 
+    max-height: 100%;
+}
+
+body {
+    background-color: #f0f5f5;
+    /*
+    #fff7e6
+    background-image: url("../images/tanbg.jpg");
+    */
+}
+
+img {
+    border-radius: 15px;
+}
+
+.content_box {
+    background-color: white;
+    color: black;
+    max-width: 75%;
+    margin: auto;
+    padding-bottom: 3%;
+    -webkit-box-shadow: -1px 1px 5px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 5px 2px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 5px 2px rgba(0,0,0,0.75);
+    border-radius: 25px;
+    overflow: auto;
+}
+
+.nav_bar {
+    list-style-type: none;
+    margin: auto;
+    padding: 0% 7%;
+    overflow: hidden;
+    background-color: #141f1f;
+}
+
+.left_nav {
+    float: left;
+}
+.right_nav {
+    float: right;
+}
+
+.left_nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    margin: auto;
+}
+.left_nav a:hover {
+    background-color: white; /*#e0ebeb*/
+    color: black;
+}
+
+.right_nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    margin: auto;
+}
+.right_nav a:hover {
+    background-color: white; /*#e0ebeb*/
+    color: black;
+}
+
+.main_content {
+    float: left;
+    width: 90%;
+    overflow: hidden;
+    padding-right: 4%;
+    padding-left: 4%;
+}
+
+
+.logo_table {
+    width: 40%;
+    height: auto;
+    border-radius: 0;
+    text-align: center;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+.sub_button {
+    display: block; 
+    margin-top: 4%;
+    width: 20%;
+    border-radius: 7px;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    background-color: white;
+    border: 2px solid grey;
+}
+
+.sub_button:hover {
+    background-color: grey;
+    color: white;
+    border-radius: 7px;
+}
+
+.brand_models {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.brand_links {
+    text-decoration: none;
+}
+
+.product_pics {
+    width: 35%;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.thumbnail {
+    width: 150px;
+}
